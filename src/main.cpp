@@ -19,19 +19,13 @@ void detectPrimeNumber(int primes)
       }
       k--;
     }
-    // Serial.println(i);
     if (count == 0)
     {
 
       digitalWrite(ledPin10, LOW);
       digitalWrite(ledPin9, HIGH);
-      // delay(50);
 
       Serial.println(i);
-
-      // digitalWrite(ledPin, LOW);
-
-      // delay(50);
     }
     else
     {
